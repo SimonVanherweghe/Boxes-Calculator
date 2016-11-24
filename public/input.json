@@ -1,0 +1,88 @@
+{
+  "material": "Multiplex berk",
+  "blocks": [{
+    "size": {
+      "width": 80,
+      "height": 240
+    },
+    "amount": 1
+  }, {
+    "size": {
+      "width": 80,
+      "height": 80
+    },
+    "amount": 8
+  }, {
+    "size": {
+      "width": 240,
+      "height": 160
+    },
+    "amount": 1
+  }, {
+    "size": {
+      "width": 160,
+      "height": 240
+    },
+    "amount": 2
+  }, {
+    "size": {
+      "width": 240,
+      "height": 240
+    },
+    "amount": 1
+  }, {
+    "size": {
+      "width": 160,
+      "height": 160
+    },
+    "amount": 2
+  }, {
+    "size": {
+      "width": 400,
+      "height": 320
+    },
+    "amount": 1
+  }, {
+    "size": {
+      "width": 320,
+      "height": 320
+    },
+    "amount": 1
+  }, {
+    "size": {
+      "width": 560,
+      "height": 480
+    },
+    "amount": 1
+  }, {
+    "size": {
+      "width": 400,
+      "height": 160
+    },
+    "amount": 1
+  }, {
+    "size": {
+      "width": 400,
+      "height": 400
+    },
+    "amount": 1
+  }, {
+    "size": {
+      "width": 1200,
+      "height": 160
+    },
+    "amount": 1
+  }, {
+    "size": {
+      "width": 560,
+      "height": 160
+    },
+    "amount": 1
+  }, {
+    "size": {
+      "width": 320,
+      "height": 80
+    },
+    "amount": 1
+  }]
+}

@@ -1,0 +1,75 @@
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+  height: 100%;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-size: 1.5rem;
+  font-family: sans-serif;
+  height: 100%
+}
+
+.App-header {
+  background-color: crimson;
+  padding: 2rem;
+  color: white;
+}
+
+main{
+  padding:2rem;
+}
+
+.row{
+  display:flex;
+  justify-content:space-between;
+}
+
+section{
+  page-break-after: always;
+  margin-bottom:2rem;
+}
+
+.controls{
+  display:flex;
+  flex-flow: column nowrap;
+}
+
+span+input{margin-left:1rem;}
+
+.svg {
+  width: 100%;
+  
+}
+
+rect {
+  fill: none;
+  stroke: black;
+}
+
+.sawline {
+  stroke: red;
+}
+
+.safezone{
+  stroke: rgba(255,152,0,0.5);
+}
+
+.plate {
+  stroke: green;
+}
+
+td {
+  text-align: right;
+}
+
+input{
+  font-size:1.5rem;
+  width: 5rem;
+}
