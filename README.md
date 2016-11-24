@@ -7,7 +7,7 @@
 * Maakt een zaagplan op met zo min mogelijk verlies (basis implementatie van een shelving algorithme)
 * Achterkanten staan apart opgelijst omdat deze uit andere panelen komen (minder dik = goedkoper)
 
-[[https://github.com/SimonVanherweghe/Boxes-Calculator/blob/master/example.png|alt=example]]
+![example](example.png)
 
 ##React
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
