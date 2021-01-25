@@ -1,31 +1,30 @@
-import React, {
-  PropTypes
-} from 'react';
+import React from 'react';
+import PropTypes from 'prop-types';
 
-const {number, func} = PropTypes;
+const { number, func } = PropTypes;
 
 class Controls extends React.Component {
 
   handleSawWidthChange = e => {
-    const {onChangeSawwidth} = this.props;
-    const value = parseInt(e.currentTarget.value, 10); 
+    const { onChangeSawwidth } = this.props;
+    const value = parseInt(e.currentTarget.value, 10);
     onChangeSawwidth(value);
   }
-  
+
   handleGrooveChange = e => {
-    const {onChangeGroove} = this.props;
-    const value = parseInt(e.currentTarget.value, 10); 
+    const { onChangeGroove } = this.props;
+    const value = parseInt(e.currentTarget.value, 10);
     onChangeGroove(value);
   }
-  
+
   handleDepthChange = e => {
-    const {onChangeDepth} = this.props;
-    const value = parseInt(e.currentTarget.value, 10); 
+    const { onChangeDepth } = this.props;
+    const value = parseInt(e.currentTarget.value, 10);
     onChangeDepth(value);
   }
 
   render() {
-    const {sawWidth, groove, depth} = this.props;
+    const { sawWidth, groove, depth } = this.props;
     return (<section className='controls'>
       <h2>Opties</h2>
       <label htmlFor='depth'>
