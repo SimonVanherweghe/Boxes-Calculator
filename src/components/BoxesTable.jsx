@@ -1,8 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const {array} = PropTypes;
-
 import BoxRow from './../components/BoxRow';
 
 const BoxesTable = ({boxes}) => (
@@ -24,7 +22,7 @@ const BoxesTable = ({boxes}) => (
 );
 
 BoxesTable.propTypes = {
-  boxes: array.isRequired,
+  boxes: PropTypes.array.isRequired,
 };
 
 export default BoxesTable;

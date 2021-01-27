@@ -1,8 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const {array} = PropTypes;
-
 import {groupPieces} from './../utils/utils.js';
 import PieceRow from './PieceRow.jsx';
 
@@ -26,7 +24,7 @@ const PiecesList = ({pieces}) => (
 );
 
 PiecesList.propTypes = {
-  pieces: array.isRequired,
+  pieces: PropTypes.array.isRequired,
 };
 
 export default PiecesList;

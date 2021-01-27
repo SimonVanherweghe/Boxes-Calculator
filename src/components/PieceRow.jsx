@@ -1,7 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const {array} = PropTypes;
 
 const PieceRow = ({piece}) => (
   <tr>
@@ -13,7 +12,7 @@ const PieceRow = ({piece}) => (
 );
 
 PieceRow.propTypes = {
-  piece: array.isRequired,
+  piece: PropTypes.array.isRequired,
 };
 
 export default PieceRow;

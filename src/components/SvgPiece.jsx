@@ -1,7 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const {object} = PropTypes;
 
 const SvgPiece = ({piece}) => (
   <g>
@@ -12,7 +11,7 @@ const SvgPiece = ({piece}) => (
 );
 
 SvgPiece.propTypes = {
-  piece: object.isRequired,
+  piece: PropTypes.object.isRequired,
 };
 
 export default SvgPiece;
