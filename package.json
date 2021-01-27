@@ -1,7 +1,7 @@
 {
-  "name": "reactCalculator",
-  "version": "0.1.0",
-  "private": true,
+  "name": "boxes-calculator",
+  "version": "1.0.0",
+  "private": false,
   "devDependencies": {
     "react-scripts": "4.0.1"
   },
